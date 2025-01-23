@@ -50,4 +50,5 @@ dependencies {
     implementation(project(":data:repository"))
     implementation(project(":features:home"))
     implementation(project(":features:splash"))
+    implementation(project(":libraries:common"))
 }

@@ -2,6 +2,7 @@ package com.example.gms
 
 import android.app.Application
 import com.example.api.di.apiModule
+import com.example.common.di.commonModule
 import com.example.home.di.homeModule
 import com.example.repository.di.repositoryModule
 import com.example.splash.di.splashModule
@@ -20,6 +21,7 @@ class StradivariusGMSApplication: Application() {
                     repositoryModule,
                     homeModule,
                     splashModule,
+                    commonModule,
                 )
             )
         }
