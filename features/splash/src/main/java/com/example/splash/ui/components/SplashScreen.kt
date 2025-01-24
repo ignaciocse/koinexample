@@ -26,6 +26,8 @@ fun SplashScreen(
             Text(text = "Hello ${viewModel.getUser()}")
             Text(text = "Hello ${viewModel.getLegacyUser()}")
             Text(text = "Hello ${viewModel.getMarkerPosition()}")
+            Text(text = "Hello ${viewModel.getModularFilterValue()}")
+            Text(text = "Hello ${viewModel.getRaptorValue()}")
         }
     }
 }

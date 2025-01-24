@@ -54,5 +54,6 @@ dependencies {
 
     implementation(project(":data:repository"))
     implementation(project(":libraries:support"))
+    implementation(project(":libraries:common"))
     implementation(project(":libraries:markets:marketservices"))
 }

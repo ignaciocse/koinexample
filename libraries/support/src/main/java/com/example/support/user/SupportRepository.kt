@@ -1,5 +1,5 @@
 package com.example.support.user
 
-interface UserSupportRepository {
+interface SupportRepository {
     fun getLegacyUser(): String
 }

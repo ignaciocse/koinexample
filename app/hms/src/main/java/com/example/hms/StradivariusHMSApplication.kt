@@ -1,6 +1,7 @@
 package com.example.hms
 
 import android.app.Application
+import android.util.Log
 import com.example.api.di.apiModule
 import com.example.common.di.commonModule
 import com.example.home.di.homeModule
