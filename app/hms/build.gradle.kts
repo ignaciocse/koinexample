@@ -45,10 +45,14 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
+    implementation(project(":legacy"))
     implementation(project(":data:api"))
     implementation(project(":data:datasource"))
     implementation(project(":data:repository"))
     implementation(project(":features:home"))
     implementation(project(":features:splash"))
     implementation(project(":libraries:common"))
+    implementation(project(":libraries:support"))
+    implementation(project(":libraries:markets:marketservices"))
+    implementation(project(":libraries:markets:huawei"))
 }
